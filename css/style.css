@@ -1,0 +1,548 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Poppins:400,500,600,600i,700,900&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 10px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-back{
+    background: #333;
+}
+.ptb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ptb-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bt-55{
+    padding-top: 55px;
+}
+/* Header */
+
+.language span{
+    color: #fefefe;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.social-icon a{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #fefefe;
+}
+.social-icon a:hover{
+    color: #1293d4;
+}
+/*nav bar*/
+.main-menu-area{
+    top: 155px;
+}
+.logo{
+    padding: 10px 0;
+}
+.main-menu ul{
+}
+.main-menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.main-menu ul li a{
+    color: #333;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.main-menu ul li a::before{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background: #F8C427;
+    transform: scaleX(0);
+    transition: all 0.3s ease 0s;
+}
+.main-menu ul li:hover a::before{
+    transform: scaleX(1);
+    transition: all 0.3s ease 0s;
+}
+
+/* Slider Text*/
+.slider-area{
+    position: relative;
+}
+.slider-img{
+    position: relative;
+}
+.slider-img:before{
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background: #48AEAA;
+    opacity: 0.8;
+    position: absolute;
+}
+.slider-text{
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-text .wlc{
+    font-weight: 400;
+    font-size: 36px;
+}
+.slider-text h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.slider-text h2 span{
+    color: #F8C427;
+    font-family: montserrat,sans-serif;;
+}
+.slider-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+.slider-text a {
+    padding: 5px 20px;
+    background: #20888B;
+    margin-right: 25px;
+    border: 1px solid #33D7B6;
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.slider-text a:hover{
+    transition: all 0.3s ease 0s;
+    background: #F8C427;
+    color: #1A8389;
+}
+.owl-carousel{
+    position: relative;
+    margin-top: -16px;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.owl-dot{
+    background: #ffffff !important;
+    display: inline-block;
+    width: 35px;
+    height: 4px;
+    margin: 0 2px;
+}
+.owl-dot.active{
+    background: #F8C427 !important;
+}
+/* INVESTMENT PLANS */
+.features-area{
+   background-color: #1C1934;
+}
+.features-area h1{
+    color: #F8C427;
+    text-shadow: 2px 1px 2px #F8C427;
+}
+.card{
+    box-shadow: 3px 3px 6px #F8C427;
+}
+.card-body{
+    padding: 8px;
+    text-align: center;
+}
+.card-header{
+    background-color: #1A8389;
+}
+.card-header h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F8C427;
+    text-align: center;
+}
+.card-body h1{
+    font-size: 18px;
+    color: #0b2e13;
+}
+.card-body ul li{
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.card-body .btn{
+    background-color: #148186;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.card-body .btn:hover{
+    background-color: #F8C427;
+    color: #148186;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Why Choose Us*/
+.choose-us-area{
+   color: #1A8389;
+}
+.about-img img{
+    position: relative;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.choose-text{
+    color: #eee6f2;
+    text-align: justify;
+}
+.choose-text h1{
+    color: #1A8389;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px #F8C427;
+}
+.choose-text p{
+    color: #1A8389;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.choose-text a{
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #fefefe;
+    text-decoration: none;
+    background: #20888B;
+    transition: all 0.3s ease 0s;
+}
+.choose-text a:hover{
+    background: #F8C427;
+    color: #148186;
+    transition: all 0.3s ease 0s;
+}
+
+/* Services Area */
+.area-title{
+    color: #1A8389;
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #1A8389;
+}
+.area-title:before,.area-title:after{
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 4px;
+    background: #1C868A;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+.area-title:after{
+    background: #F8C427;
+    width: 80px;
+}
+.services-title a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    background: #1C868A;
+    color: #ffffff;
+    border: 1px solid #1C868A;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.single-services:hover .services-title a{
+    background: #F8C427;
+    border-color: #fefefe;
+    color: #fefefe;
+    transition: all 0.3s ease 0s;
+}
+.services-title a:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px #F8C427;
+    border-radius: 50%;
+    left: 0;
+    bottom: -4px;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.single-services:hover .services-title a:before{
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.services-title h3{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.services-text p{
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Sing up Login & Dashboard Page */
+.content-area{
+    position: relative;
+    top: 80px;
+}
+.card-header{
+    border-radius: 5px;
+    color: #F8C427;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: 2px 3px 2px #424867;
+}
+
+/* Dashboard */
+.dashboar{
+    text-align: center;
+    background: #1A8389;
+    color: #F8C427;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+/* Style the tab */
+.tab {
+    border: 1px solid #1A8389;
+    background-color: #f1f1f1;
+    color: #1A8389;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: #FFFFFF;
+    color: #1A8389;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #f8d918;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #F8C427;
+}
+
+/* Style the tab content */
+.user{
+    padding: 10px 15px;
+    background: #1A8389;
+    border-left: 5px solid #F8C427;
+    border-right: 5px solid #F8C427;
+}
+.user h2{
+    display: inline;
+    line-height: 2;
+    font-size: 18px;
+    color: #F8C427;
+    font-weight: 600;
+}
+.user a{
+    float: right;
+    background: #F8C427;
+    border-radius: 20px;
+    padding: 7px 30px;
+    color: #1A8389;
+    font-weight: 600;
+}
+.referal_link{
+    padding: 8px 10px;
+    border: 1px solid #1A8389;
+    border-radius: 5px;
+}
+.referal_link p{
+    margin-top: 12px;
+}
+.mybox{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0c5460;
+    box-shadow: 2px 2px 2px #0c5460;
+    border-radius: 8px;
+}
+.mybox h2 h3{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.mybox h4{
+    background: #1A8389;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.mybox h6{
+    color: #1A8389;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+}
+.mybox i.fa{
+    color: #0c5460;
+    transition: all 0.3s ease 0s;
+}
+.mybox:hover .fa{
+    color: #fd7e14;
+    transition: all 0.3s ease 0s;
+}
+.mybox p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border-bottom: 2px dotted #1A8389;
+}
+.mybox span{
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #1A8389;
+    border-radius: 3px;
+    padding: 3px;
+}
+.price{
+    float: right;
+}
+/*Investment Plan*/
+.invest-title h2{
+    background: #1A8389;
+    text-align: center;
+    line-height: 1;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    transition: all 0.3s ease 0s;
+}
+.invest-title h2:hover{
+    color: #F8C427;
+    transition: all 0.3s ease 0s;
+}
+.input-group-text{
+    background: #1A8389;
+    color: #FFFFFF;
+}
+/* Payment Method*/
+.custom-control{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #1A8389;
+}
+.payment-method{
+    padding: 10px;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #1A8389;
+    background-color: #1A8389;
+}
+.paymetn-btn {
+    background: #1A8389;
+    width: 104px;
+    height: 40px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-weight: 500;
+    border: 2px solid #1A8389;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+}
+.paymetn-btn:hover{
+    color: #FFFFFF;
+    background: #fd7e14;
+    border: 2px solid #1A8389;
+    transition: all 0.3s ease 0s;
+}
+/*My Investment*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
