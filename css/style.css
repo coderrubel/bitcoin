@@ -5,6 +5,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
     margin: 0 0 10px;
 }
+a:hover{
+    text-decoration: none;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -23,8 +26,8 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.bt-55{
-    padding-top: 55px;
+.mb-100{
+    margin-bottom: 100px;
 }
 /* Header */
 
@@ -63,7 +66,7 @@ body{
     padding: 15px 10px;
     display: block;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     position: relative;
 }
@@ -261,7 +264,7 @@ body{
 /* Services Area */
 .area-title{
     color: #1A8389;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
     position: relative;
     padding-bottom: 20px;
     text-shadow: 2px 2px 4px #1A8389;
@@ -522,8 +525,120 @@ body{
     border: 2px solid #1A8389;
     transition: all 0.3s ease 0s;
 }
-/*My Investment*/
-
+/* REFERRAL PROGRAM */
+.referral-program-area{
+    background: #1C1934;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing:1.5px;
+}
+/* statistics-area */
+.statistics-area .table {
+    border: 2px solid #1A8389;
+    border-top: none;
+    box-shadow: 2px 2px 2px #1A8389;
+    font-weight: 600;
+}
+.statistics-area .invest-title h2{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 3px 0px 2px #1A8389;
+}
+/* Payment Method Area */
+.payment-method-area{
+    background: #1C1934;
+    color: #FFFFFF;
+    text-align: center;
+}
+.payment-title h2{
+    color: #F8C427;
+    text-shadow: 2px 1px 2px #F8C427;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 2;
+}
+.payment-title h2:before{
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid #F8C427;
+    right: 0;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    position: absolute;
+    content: "";
+}
+.payment-title h2:after{
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid #F8C427;
+    left:0;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    position: absolute;
+    content: "";
+}
+.table td, .table th {
+    padding: 5px;
+    vertical-align: top;
+    border-top: 1px solid #1A8389;
+}
+.table-hover tbody tr {
+    transition: 0.3s;
+}
+.table-hover tbody tr:hover {
+    color: #FFFFFF;
+    background-color: #1A8389;
+    transition: 0.3s;
+}
+    /* Footer Area */
+footer{
+    border-top: 2px solid #1C1934;
+    padding-top: 15px;
+}
+footer h5{
+    font-weight: 600;
+    text-shadow: 2px 1px 2px #1C1934;
+}
+footer nav ul{
+    margin: 0;
+    padding: 0;
+}
+footer nav ul li{
+    list-style: none;
+    padding-right: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #1C1934;
+}
+footer nav ul li a:hover{
+    text-decoration: none;
+    color: #1A8389;
+}
+footer nav ul li a .fa{
+    padding: 10px;
+    border-radius: 3px;
+}
+footer nav ul li a:hover .fa{
+    text-decoration: none;
+    color: #1A8389;
+    background: #F8C427;
+}
+.footer-buttom{
+    text-align: center;
+    background: #1C1934;
+    color: #FFFFFF;
+}
+.abotu-area p{
+    text-align: justify;
+}
 
 
 
