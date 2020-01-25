@@ -1,6 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    h1, h2, h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
     .slider-text h2{
         font-size: 14px;
     }
@@ -27,9 +36,31 @@
     .payment-title h2::after {
         width: 32%;
     }
+    .area-title h2{
+        font-size: 25px;
+    }
+    .card-header{
+        font-size: 18px;
+    }
+    .faq-content {
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    h1, h2, h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    h4, h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
     .slider-text h2{
         font-size: 30px;
     }
@@ -44,6 +75,18 @@
         margin: 10px;
         font-weight: 400;
         bottom: 0;
+    }
+    .area-title h2{
+        font-size: 30px;
+    }
+    .card-header{
+        font-size: 20px;
+    }
+    .faq-content {
+        text-align: justify;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16px;
     }
 
 }

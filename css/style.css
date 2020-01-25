@@ -184,7 +184,7 @@ body{
 .features-area{
    background-color: #1C1934;
 }
-.features-area h1{
+.features-area h2{
     color: #F8C427;
     text-shadow: 2px 1px 2px #F8C427;
 }
@@ -461,11 +461,11 @@ body{
     padding: 0;
     text-align: center;
 }
-.mybox i.fa{
+.mybox i.fab{
     color: #0c5460;
     transition: all 0.3s ease 0s;
 }
-.mybox:hover .fa{
+.mybox:hover .fab{
     color: #fd7e14;
     transition: all 0.3s ease 0s;
 }
@@ -616,6 +616,12 @@ body{
 .table-hover:last-child{
 
 }
+    /*FAQ Page*/
+.faq-content{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
     /* Footer Area */
 footer{
     border-top: 2px solid #1C1934;
@@ -638,19 +644,11 @@ footer nav ul li{
 footer nav ul li a{
     text-decoration: none;
     color: #1C1934;
+    font-size: 14px;
 }
 footer nav ul li a:hover{
     text-decoration: none;
     color: #1A8389;
-}
-footer nav ul li a .fa{
-    padding: 10px;
-    border-radius: 3px;
-}
-footer nav ul li a:hover .fa{
-    text-decoration: none;
-    color: #1A8389;
-    background: #F8C427;
 }
 .footer-buttom{
     text-align: center;
@@ -670,7 +668,7 @@ footer nav ul li a:hover .fa{
     font-family: 'Montserrat', sans-serif;
     color: #1A8389;
 }
-.contact-area li:hover .fa{
+.contact-area li:hover .fab{
     color: #1A8389;
 }
 .contact-area li p, a{
